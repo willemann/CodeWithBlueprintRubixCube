@@ -14,7 +14,7 @@ How do we split up the work?
 
 We have each person working on a different class or set of methods, detailed assignment is below
 
-Donny: setters and getters, main files and packaging, putting everything together
+Donny: setters and getters, Face class, low level representation of cube, putting everything together
 
 Kevin: Cube class, rotation in cube, initializing cube object, print and set cube values
 
