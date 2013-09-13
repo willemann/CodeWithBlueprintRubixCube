@@ -27,14 +27,18 @@ Together: randomizing method, testing code
 What do we have so far?
 =======================
 
-We are able to successfully represent the cube in appropriate data structures, print out the cube, rotate faces correctly.
+We are able to successfully implement and _debug_
+- represent the cube in appropriate data structures
 - face rotation 
 - 2D representation print-out
-
-Parse text file to create cube, correctly represetn and print out the cube, code it to respond to different movement commands, geneartion of randomized cubes
+- Parse text file to create cube
+- respond to different movement commands
+- geneartion of randomized cubes
 
 
 Things taken into consideration
 ==============================
 - efficiency
 - exceptions and error-preventing
+- abstraction
+- interface, encapsulation
