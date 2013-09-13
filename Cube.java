@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Hashtable;
+import java.util.Random;
 
 public class Cube  {
 
@@ -103,8 +104,12 @@ public class Cube  {
         }
     }
 
-    public void randomize(int x) {
-        // random number generator, with x as seed
+    public void randomize() throws  Exception{
+        Random ran1 = new Random();
+        Random ran2 = new Random();
+        for (int i=0; i < ran2.nextInt(100); i++) {
+            rotateClockwise(ran1.nextInt(6));
+        }
     }
 
     public void rotateClockwise(int color) throws Exception{
@@ -163,6 +168,10 @@ public class Cube  {
         newCube.printCube();
         System.out.print('\n');
         newCube.rotateCounterClockwise(0);
+        newCube.printCube();
+
+        System.out.println("Now randomizing the cube");
+        newCube.randomize();
         newCube.printCube();
     }
 }
